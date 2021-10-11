@@ -1,2 +1,27 @@
 /* Colors */
 $commonYellow: #f9d03f;
+
+/* Mixin buttons */
+@mixin button {
+    border: 0;
+    font-weight: lighter;
+    transition: all 0.2s linear;
+}
+
+@mixin smallButton {
+    padding: .5rem 1.25rem;
+}
+
+@mixin bigButton {
+    padding: .625rem 1.875rem;
+}
+
+@mixin blackButton {
+    color: #fff;
+    background-color: #333333;
+}
+
+@mixin yellowButton {
+    color: #333333;
+    background-color: $commonYellow;
+}

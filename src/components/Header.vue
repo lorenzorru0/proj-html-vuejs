@@ -49,13 +49,10 @@ header {
             position: relative;
         }
 
-        a, button {
-            padding: .5rem 1.25rem;
-        }
-
         a {
             display: inline-block;
             text-decoration: none;
+            padding: .5rem 1.25rem;
             margin: 0 .3125rem;
             color: #000;
             font-weight: lighter;
@@ -87,14 +84,12 @@ header {
         }
 
         button {
-            border: 0;
-            background-color: $commonYellow;
-            font-weight: lighter;
-            transition: all 0.3s linear;
+            @include button;
+            @include smallButton;
+            @include yellowButton;
 
             &:hover {
-                color: #fff;
-                background-color: #333333;
+                @include blackButton;
             }
         }
     }
