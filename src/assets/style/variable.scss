@@ -51,3 +51,16 @@ $commonYellow: #f9d03f;
         bottom: 30px;
     };
 }
+
+/* Mixin icon Core Values */
+@mixin iconCoreValues {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 60px;
+    color: #fff;
+}
