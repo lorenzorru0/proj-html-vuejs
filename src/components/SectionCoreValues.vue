@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col text-center">
                 <div class="small-container">
-                    <titleAndDescription :data="data"/>
+                    <TitleAndDescription :data="data"/>
                 </div>
             </div>
         </div>
@@ -18,14 +18,14 @@
 </template>
 
 <script>
-import titleAndDescription from './titleAndDescription.vue';
+import TitleAndDescription from './TitleAndDescription.vue';
 import CoreValuesCard from './CoreValuesCard.vue';
 import dataSectionCoreValues from '../observable/SectionCoreValues';
 
 export default {
     name: 'SectionCoreValues',
     components: {
-        titleAndDescription,
+        TitleAndDescription,
         CoreValuesCard
     },
     data() {

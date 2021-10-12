@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col text-center">
                 <div class="small-container">
-                    <titleAndDescription :data="data"/>
+                    <TitleAndDescription :data="data"/>
                 </div>
             </div>
         </div>
@@ -58,12 +58,12 @@
 </template>
 
 <script>
-import titleAndDescription from './titleAndDescription.vue';
+import TitleAndDescription from './TitleAndDescription.vue';
 
 export default {
     name: 'SectionRecentWork',
     components: {
-        titleAndDescription
+        TitleAndDescription
     },
     data() {
         return {

@@ -22,6 +22,7 @@ div {
     }
 
     h3 {
+        text-align: center;
         font-size: 2rem;
         font-weight: lighter;
     }

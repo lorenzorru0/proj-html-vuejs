@@ -44,6 +44,9 @@ $commonYellow: #f9d03f;
 @mixin styleHr {
     margin: auto;
     width: 200px;
+    display: block; 
+    height: 2px;
+    border: 0;
     border: 2px solid $commonYellow;
     background-color: $commonYellow;
     margin: {

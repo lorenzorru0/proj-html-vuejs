@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col text-center">
                 <div class="small-container">
-                    <titleAndDescription :data="data"/>
+                    <TitleAndDescription :data="data"/>
                 </div>
             </div>
         </div>
@@ -18,13 +18,13 @@
 <script>
 import ModernCard from './ModernCard.vue';
 import dataModern from '../observable/SectionModern';
-import titleAndDescription from './titleAndDescription.vue';
+import TitleAndDescription from './TitleAndDescription.vue';
 
 export default {
     name: 'SectionModern',
     components: {
         ModernCard,
-        titleAndDescription
+        TitleAndDescription
     },
     data() {
         return {
