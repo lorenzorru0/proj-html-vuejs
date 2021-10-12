@@ -37,12 +37,14 @@ export default {
             @include smallButton;
             @include blackButton;
             position: absolute;
-            border: .1875rem solid #fff;
+            border: .125rem solid #fff;
             bottom: -1.4375rem;
             left: calc(50% - 5.78375rem);
 
             &:hover {
-                @include yellowButton;
+                background-color: #fff;
+                color: #000;
+                border-color: #000;
             }
         }
     }
