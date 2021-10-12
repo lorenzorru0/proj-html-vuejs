@@ -4,6 +4,7 @@
         <SectionProject/>
         <SectionModern/>
         <CurvedNumbersSection/>
+        <SectionRecentWork/>
     </main>
 </template>
 
@@ -12,6 +13,7 @@ import Jumbotron from './Jumbotron.vue';
 import SectionProject from './SectionProject.vue';
 import SectionModern from './SectionModern.vue';
 import CurvedNumbersSection from './CurvedNumbersSection.vue';
+import SectionRecentWork from './SectionRecentWork.vue';
 
 export default {
     name: 'Main',
@@ -19,7 +21,8 @@ export default {
         Jumbotron,
         SectionProject,
         SectionModern,
-        CurvedNumbersSection
+        CurvedNumbersSection,
+        SectionRecentWork
     }
 }
 </script>

@@ -39,3 +39,15 @@ $commonYellow: #f9d03f;
     color: #747474;
     font-size: 20px;
 }
+
+/* Mixin hr */
+@mixin styleHr {
+    margin: auto;
+    width: 200px;
+    border: 2px solid $commonYellow;
+    background-color: $commonYellow;
+    margin: {
+        top: 20px;
+        bottom: 30px;
+    };
+}
