@@ -3,9 +3,7 @@
         <div class="row">
             <div class="col text-center">
                 <div class="small-container">
-                    <h3>Specialist In Modern Costruction</h3>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci dolorem dolor tempora blanditiis! Quasi hic sit qui similique velit adipisci possimus maiores delectus at illum. Tempora animi aliquam beatae.</p>
+                    <titleAndDescription :data="data"/>
                 </div>
             </div>
         </div>
@@ -20,15 +18,21 @@
 <script>
 import ModernCard from './ModernCard.vue';
 import dataModern from '../observable/SectionModern';
+import titleAndDescription from './titleAndDescription.vue';
 
 export default {
     name: 'SectionModern',
     components: {
         ModernCard,
+        titleAndDescription
     },
     data() {
         return {
-            dataModern
+            dataModern,
+            data: {
+                title: 'Specialist In Modern Costruction',
+                description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci dolorem dolor tempora blanditiis! Quasi hic sit qui similique velit adipisci possimus maiores delectus at illum. Tempora animi aliquam beatae.'
+            }
         }
     }
 }

@@ -3,9 +3,7 @@
         <div class="row">
             <div class="col text-center">
                 <div class="small-container">
-                    <h3>Explore Recent Work</h3>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci dolorem dolor tempora blanditiis! Quasi hic sit qui similique velit adipisci possimus maiores delectus at illum. Tempora animi aliquam beatae.</p>
+                    <titleAndDescription :data="data"/>
                 </div>
             </div>
         </div>
@@ -60,8 +58,21 @@
 </template>
 
 <script>
+import titleAndDescription from './titleAndDescription.vue';
+
 export default {
     name: 'SectionRecentWork',
+    components: {
+        titleAndDescription
+    },
+    data() {
+        return {
+            data: {
+                title: 'Explore Recent Work',
+                description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam adipisci dolorem dolor tempora blanditiis! Quasi hic sit qui similique velit adipisci possimus maiores delectus at illum. Tempora animi aliquam beatae.'
+            }
+        }
+    }
 }
 </script>
 
@@ -73,20 +84,6 @@ export default {
 
     .small-container {
         margin-bottom: 3.125rem;
-
-        hr {
-            @include styleHr;
-        }
-
-        h3 {
-        font-size: 2rem;
-        font-weight: lighter;
-        }
-
-        p {
-            line-height: 2rem;
-            color: #747474;
-        }
     }
 
     .col-4 {
