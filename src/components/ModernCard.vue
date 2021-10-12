@@ -32,9 +32,9 @@ export default {
 .flip-card {
     background-color: transparent;
     width: 100%;
-    height: 320px;
-    border-radius: 15px;
-    perspective: 1000px;
+    height: 20rem;
+    border-radius: .9375rem;
+    perspective: 62.5rem;
 
     p {
         color: #747474;
@@ -42,7 +42,7 @@ export default {
     }
 
     h3, h5 {
-        padding-top: 10px;
+        padding-top: .625rem;
         font-weight: lighter;
     }
 }
@@ -51,7 +51,7 @@ export default {
     position: relative;
     width: 100%;
     height: 100%;
-    border-radius: 15px;
+    border-radius: .9375rem;
     text-align: center;
     transition: transform 0.3s;
     transform-style: preserve-3d;
@@ -65,8 +65,8 @@ export default {
     position: absolute;
     width: 100%;
     height: 100%;
-    border-radius: 15px;
-    padding: 30px 15px;
+    border-radius: .9375rem;
+    padding: 1.875rem .9375rem;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }

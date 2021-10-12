@@ -19,4 +19,14 @@ body {
     max-width: 56.25rem;
     margin: auto;
 }
-
+.curvedContainer {
+    height: 100px;
+    background-color: #fff;
+    clip-path: ellipse(55% 100% at 50% 0%);
+}
+.curvedContainerRotate {
+    height: 100px;
+    background-color: #fff;
+    clip-path: ellipse(55% 100% at 50% 0%);
+    transform: rotate(180deg);
+}

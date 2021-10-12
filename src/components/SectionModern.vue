@@ -15,8 +15,6 @@
             </div>
         </div>
     </div>
-        <!-- <div class="svgContainer"></div>
-        <div class="curvedContainer"></div> -->
 </template>
 
 <script>
@@ -66,18 +64,6 @@ export default {
 
     .small-container {
         margin-bottom: 100px;
-    }
-
-    .svgContainer {
-        height: 100px;
-        background-color: #fff;
-        clip-path: ellipse(55% 100% at 50% 0%);
-    }
-    .curvedContainer {
-        height: 100px;
-        background-color: #fff;
-        clip-path: ellipse(55% 100% at 50% 0%);
-        transform: rotate(180deg);
     }
 }
 </style>

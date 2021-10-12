@@ -3,6 +3,7 @@
         <Jumbotron/>
         <SectionProject/>
         <SectionModern/>
+        <CurvedNumbersSection/>
     </main>
 </template>
 
@@ -10,13 +11,15 @@
 import Jumbotron from './Jumbotron.vue';
 import SectionProject from './SectionProject.vue';
 import SectionModern from './SectionModern.vue';
+import CurvedNumbersSection from './CurvedNumbersSection.vue';
 
 export default {
     name: 'Main',
     components: {
         Jumbotron,
         SectionProject,
-        SectionModern
+        SectionModern,
+        CurvedNumbersSection
     }
 }
 </script>
