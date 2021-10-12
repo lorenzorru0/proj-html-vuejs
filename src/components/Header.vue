@@ -36,6 +36,13 @@ export default {
 
 header {
     padding: 1.875rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+    background-color: #fff;
+    box-shadow: 0 1px 15px -2px rgb(224, 224, 224);
+
 
     img {
         width: 12.5rem;
