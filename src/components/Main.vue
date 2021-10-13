@@ -7,6 +7,7 @@
         <SectionRecentWork/>
         <SectionCoreValues/>
         <CurvedOwnersSection/>
+        <SectionLatestNews/>
     </main>
 </template>
 
@@ -18,6 +19,7 @@ import CurvedNumbersSection from './CurvedNumbersSection.vue';
 import SectionRecentWork from './SectionRecentWork.vue';
 import SectionCoreValues from './SectionCoreValues.vue';
 import CurvedOwnersSection from './CurvedOwnersSection.vue';
+import SectionLatestNews from './SectionLatestNews.vue';
 
 export default {
     name: 'Main',
@@ -28,7 +30,8 @@ export default {
         CurvedNumbersSection,
         SectionRecentWork,
         SectionCoreValues,
-        CurvedOwnersSection
+        CurvedOwnersSection,
+        SectionLatestNews
     }
 }
 </script>

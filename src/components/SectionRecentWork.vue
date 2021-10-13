@@ -20,8 +20,6 @@
                         <p>Commercial</p>
                     </div>
                 </div>
-
-                <div class="hr"></div>
             </div>
             <div class="col-4">
                 <div class="overlay">
@@ -35,8 +33,6 @@
                         <p>Residential</p>
                     </div>
                 </div>
-
-                <button>VIEW ALL PROJECTS</button>
             </div>
             <div class="col-4">
                 <div class="overlay">
@@ -50,7 +46,16 @@
                         <p>Commercial</p>
                     </div>
                 </div>
-
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="hr"></div>
+            </div>
+            <div class="col-4">
+                <button>VIEW ALL PROJECTS</button>
+            </div>
+            <div class="col-4">
                 <div class="hr"></div>
             </div>
         </div>
@@ -97,37 +102,14 @@ export default {
             }
 
             .divHover {
-                position: absolute;
-                top: 0;
-                right: 0;
-                width: 100%;
-                height: 100%;
-                background-color: $commonYellow;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-direction: column;
-                color: #fff;
-                opacity: 0;
-                transition: opacity 0.3s ease-in;
+                @include divHover;
 
                 .iconsContainer {
                     display: flex;
                     margin-bottom: .9375rem;
 
                     .icons {
-                        display: inline-block;
-                        width: 50px;
-                        height: 50px;
-                        border-radius: 50%;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        margin: 0 .3125rem;
-                        background-color: #fff;
-                        color: $commonYellow;
-                        font-size: 20px;
-                        cursor: pointer;
+                        @include divIcon;
                     }
                 }
 
@@ -145,7 +127,7 @@ export default {
             width: 100%;
             height: .125rem;
             background-color: #e4e4e4;
-            margin-top: 127px;
+            margin-top: 1.625rem;
         }
 
         button {
