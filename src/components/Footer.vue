@@ -154,7 +154,7 @@ footer {
     .footer-bottom {
         background-color: #111111;
         color: #747474;
-        padding: 30px 0;
+        padding: 1.875rem 0;
 
         p {
             font-size: 1rem;
@@ -163,8 +163,8 @@ footer {
         }
 
         i {
-            font-size: 20px;
-            margin-left: 20px;
+            font-size: 1.25rem;
+            margin-left: 1.25rem;
             cursor: pointer;
 
             &:hover {

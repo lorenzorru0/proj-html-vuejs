@@ -24,7 +24,7 @@ export default {
 
 .overlay {
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
 
     img {
         width: 100%;

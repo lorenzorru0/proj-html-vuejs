@@ -47,12 +47,12 @@ export default {
 
     hr {
         margin: auto;
-        width: 200px;
-        border: 2px solid $commonYellow;
+        width: 12.5rem;
+        border: .125rem solid $commonYellow;
         background-color: $commonYellow;
         margin: {
-            top: 20px;
-            bottom: 30px;
+            top: 1.25rem;
+            bottom: 1.875rem;
         };
     }
 
@@ -67,7 +67,7 @@ export default {
     }
 
     .small-container {
-        margin-bottom: 100px;
+        margin-bottom: 6.25rem;
     }
 }
 </style>

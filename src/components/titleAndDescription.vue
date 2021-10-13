@@ -19,12 +19,12 @@ export default {
 div {
     .hr {
         margin: auto;
-        width: 200px;
-        height: 2px;
+        width: 12.5rem;
+        height: .125rem;
         background-color: $commonYellow;
         margin: {
-            top: 20px;
-            bottom: 30px;
+            top: 1.25rem;
+            bottom: 1.875rem;
         };
     }
 

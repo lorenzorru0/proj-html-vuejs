@@ -72,11 +72,11 @@ export default {
 
         .circle {
             display: inline-block;
-            width: 20px;
-            height: 20px;
+            width: 1.25rem;
+            height: 1.25rem;
             border-radius: 50%;
-            margin: 50px 5px;
-            border: 3px solid #fff;
+            margin: 3.125rem .3125rem;
+            border: .1875rem solid #fff;
             cursor: pointer;
 
             &:hover {

@@ -51,7 +51,7 @@ export default {
                 @include button;
                 @include bigButton;
                 margin: 0 .3125rem;
-                letter-spacing: 2px;
+                letter-spacing: .125rem;
                 font-size: 1.2rem;
             }
 

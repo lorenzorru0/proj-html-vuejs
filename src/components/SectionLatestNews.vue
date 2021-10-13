@@ -71,7 +71,7 @@ export default {
             @include button;
             width: 100%;
             padding: .9375rem 0;
-            letter-spacing: 2px;
+            letter-spacing: .125rem;
             background-color: #f5f5f5;
 
             &:hover {
