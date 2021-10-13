@@ -32,8 +32,8 @@ export default {
     position: fixed;
     bottom: 0;
     right: 1.25rem;
-    width: 60px;
-    height: 40px;
+    width: 50px;
+    height: 30px;
     background-color: rgba(0, 0, 0, 0.7);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
