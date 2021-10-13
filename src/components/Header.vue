@@ -41,7 +41,7 @@ header {
     top: 0;
     z-index: 9;
     background-color: #fff;
-    box-shadow: 0 1px 15px -2px rgb(224, 224, 224);
+    box-shadow: 0 .0625rem .9375rem -0.125rem rgb(224, 224, 224);
 
 
     img {
@@ -62,6 +62,7 @@ header {
             padding: .5rem 1.25rem;
             margin: 0 .3125rem;
             color: #000;
+            font-size: 1.25rem;
             font-weight: lighter;
             transition: all 0.3s linear;
 

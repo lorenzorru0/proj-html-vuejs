@@ -55,12 +55,12 @@ export default {
             text-align: center;
 
             i {
-                font-size: 3.125rem;
+                font-size: 3.5rem;
                 margin-bottom: .3125rem;
             }
 
             h2 {
-                font-size: 2.5rem;
+                font-size: 3rem;
             }
 
             h2, p {

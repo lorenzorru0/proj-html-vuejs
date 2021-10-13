@@ -78,6 +78,7 @@ div {
         }
 
         h3 {
+            font-size: 1.875rem;
             letter-spacing: .125rem;
         }
 

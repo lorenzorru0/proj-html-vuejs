@@ -4,6 +4,7 @@ $commonYellow: #f9d03f;
 /* Mixin buttons */
 @mixin button {
     border: 0;
+    font-size: 1.25rem;
     font-weight: lighter;
     transition: all 0.2s linear;
 }
@@ -28,28 +29,28 @@ $commonYellow: #f9d03f;
 
 /* Mixin icon Modern Card */
 @mixin iconModernCard {
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
-    border: 1px solid #747474;
+    border: .0625rem solid #747474;
     color: #747474;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 /* Mixin icon Core Values */
 @mixin iconCoreValues {
-    width: 120px;
-    height: 120px;
+    width: 7.5rem;
+    height: 7.5rem;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
-    font-size: 60px;
+    font-size: 3.75rem;
     color: #fff;
 }
 
@@ -72,8 +73,8 @@ $commonYellow: #f9d03f;
 }
 @mixin divIcon {
     display: inline-block;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -81,6 +82,6 @@ $commonYellow: #f9d03f;
     margin: 0 .3125rem;
     background-color: #fff;
     color: $commonYellow;
-    font-size: 20px;
+    font-size: 1.25rem;
     cursor: pointer;
 }

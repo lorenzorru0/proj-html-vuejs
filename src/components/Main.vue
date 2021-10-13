@@ -9,6 +9,7 @@
         <CurvedOwnersSection/>
         <SectionLatestNews/>
         <SectionTrustedPartners/>
+        <SectionBuildingSpaces/>
     </main>
 </template>
 
@@ -22,6 +23,7 @@ import SectionCoreValues from './SectionCoreValues.vue';
 import CurvedOwnersSection from './CurvedOwnersSection.vue';
 import SectionLatestNews from './SectionLatestNews.vue';
 import SectionTrustedPartners from './SectionTrustedPartners.vue';
+import SectionBuildingSpaces from './SectionBuildingSpaces.vue';
 
 export default {
     name: 'Main',
@@ -34,7 +36,8 @@ export default {
         SectionCoreValues,
         CurvedOwnersSection,
         SectionLatestNews,
-        SectionTrustedPartners
+        SectionTrustedPartners,
+        SectionBuildingSpaces
     }
 }
 </script>
