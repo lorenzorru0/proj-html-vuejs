@@ -40,21 +40,6 @@ $commonYellow: #f9d03f;
     font-size: 20px;
 }
 
-/* Mixin hr */
-@mixin styleHr {
-    margin: auto;
-    width: 200px;
-    display: block; 
-    height: 2px;
-    border: 0;
-    border: 2px solid $commonYellow;
-    background-color: $commonYellow;
-    margin: {
-        top: 20px;
-        bottom: 30px;
-    };
-}
-
 /* Mixin icon Core Values */
 @mixin iconCoreValues {
     width: 120px;

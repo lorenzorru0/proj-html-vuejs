@@ -1,7 +1,7 @@
 <template>
     <div>
         <h3>{{data.title}}</h3>
-        <hr>
+        <div class="hr"></div>
         <p>{{data.description}}</p>
     </div>
 </template>
@@ -17,8 +17,15 @@ export default {
 @import '../assets/style/variable.scss';
 
 div {
-    hr {
-        @include styleHr;
+    .hr {
+        margin: auto;
+        width: 200px;
+        height: 2px;
+        background-color: $commonYellow;
+        margin: {
+            top: 20px;
+            bottom: 30px;
+        };
     }
 
     h3 {
