@@ -45,25 +45,9 @@ export default {
     margin-top: 6.25rem;
     padding-bottom: 1.875rem;
 
-    hr {
-        margin: auto;
-        width: 12.5rem;
-        border: .125rem solid $commonYellow;
-        background-color: $commonYellow;
-        margin: {
-            top: 1.25rem;
-            bottom: 1.875rem;
-        };
-    }
-
-    h3 {
-        font-size: 2rem;
-        font-weight: lighter;
-    }
-
     p {
         line-height: 2rem;
-        color: #747474;
+        color: $commonGray;
     }
 
     .small-container {

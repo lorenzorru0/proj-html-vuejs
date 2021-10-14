@@ -37,7 +37,7 @@ export default {
     perspective: 62.5rem;
 
     p {
-        color: #747474;
+        color: $commonGray;
         line-height: 2rem;
     }
 
