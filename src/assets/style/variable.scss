@@ -43,8 +43,8 @@ $commonGray: #747474;
     align-items: center;
     justify-content: center;
     margin: auto;
-    border: .0625rem solid #747474;
-    color: #747474;
+    border: .0625rem solid $commonGray;
+    color: $commonGray;
     font-size: 1.25rem;
 }
 
