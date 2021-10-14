@@ -39,8 +39,7 @@ export default {
 .container-fluid {
     padding: 6.25rem 0;
     background-image: url('../assets/img/about-call-to-action-57862405.jpg');
-    background-size: cover;
-    background-position: center;
+    @include imgBg;
     border-bottom: .9375rem solid #3f3f3f;
 
     .container {
