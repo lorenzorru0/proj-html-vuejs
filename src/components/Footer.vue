@@ -49,10 +49,7 @@
                     <p>COPYRIGTH BY BOOLEAN CLASSE 40 2021 | CREATED BY LORENZO ORRU'</p>
                 </div>
                 <div>
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-youtube"></i>
-                    <i class="fab fa-instagram"></i>
+                    <i v-for="(icon, index) in iconBottom" :key="index" :class="icon"></i>
                 </div>
             </div>
         </div>
@@ -66,7 +63,13 @@ export default {
     name: 'Footer',
     data() {
         return {
-            dataFooter
+            dataFooter,
+            iconBottom: [
+                'fab fa-facebook-f',
+                'fab fa-twitter',
+                'fab fa-youtube',
+                'fab fa-instagram'
+            ]
         }
     }
 }
@@ -153,7 +156,7 @@ footer {
 
     .footer-bottom {
         background-color: #111111;
-        color: #747474;
+        color: $commonGray;
         padding: 1.875rem 0;
 
         p {
