@@ -4,25 +4,10 @@
         <div class="small-container">
             <div class="container">
                 <div class="row justify-content-between">
-                    <div class="col-3">
-                        <i class="fas fa-suitcase"></i>
-                        <h2>3534</h2>
-                        <p>PLANNING APPLICATIONS</p>
-                    </div>
-                    <div class="col-3">
-                        <i class="far fa-building"></i>
-                        <h2>896</h2>
-                        <p>COMPLETED PROJECTS</p>
-                    </div>
-                    <div class="col-3">
-                        <i class="fas fa-users"></i>
-                        <h2>172</h2>
-                        <p>TRAINED PROFESSIONALS</p>
-                    </div>
-                    <div class="col-3">
-                        <i class="fas fa-globe"></i>
-                        <h2>19</h2>
-                        <p>INTERNATIOL OFFICES</p>
+                    <div class="col-3 text-center" v-for="(data, index) in dataNumbers.data" :key="index">
+                        <i :class="data.icon"></i>
+                        <h2>{{data.count}}</h2>
+                        <p>{{data.title}}</p>
                     </div>
                 </div>
             </div>
@@ -32,8 +17,15 @@
 </template>
 
 <script>
+import dataNumbers from '../observable/Numbers';
+
 export default {
-    name: 'CurvedNumbersSection'
+    name: 'CurvedNumbersSection',
+    data() {
+        return {
+            dataNumbers
+        }
+    }
 }
 </script>
 
@@ -52,7 +44,6 @@ export default {
         }
 
         .col-3 {
-            text-align: center;
 
             i {
                 font-size: 3.5rem;
