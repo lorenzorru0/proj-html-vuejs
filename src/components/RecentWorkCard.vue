@@ -2,7 +2,7 @@
     <div class="overlay">
         <img :src="dataWork.url" alt="Project 2">
         <div class="divHover">
-            <div class="iconsContainer">
+            <div class="iconsContainer d-flex">
                 <div class="icons"><i class="fas fa-link"></i></div>
                 <div class="icons"><i class="fas fa-search"></i></div>
             </div>
@@ -34,7 +34,6 @@ export default {
         @include divHover;
 
         .iconsContainer {
-            display: flex;
             margin-bottom: .9375rem;
 
             .icons {
@@ -42,7 +41,7 @@ export default {
             }
         }
 
-        h5, p {
+        h5 {
             font-weight: lighter;
         }
     }
