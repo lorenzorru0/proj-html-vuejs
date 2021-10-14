@@ -22,7 +22,7 @@ export default {
 div {
     h4, p {
         text-align: center;
-        color: #747474;
+        color: $commonGray;
     }
 
     .iconContainer {
@@ -35,9 +35,14 @@ div {
         }
     }
 
+    .iconContainer:hover + h4{
+        color: $commonYellow;
+    }
+
     h4 {
         font-weight: lighter;
         margin: .625rem 0;
+        transition: all 0.3s;
     }
 
     p {
