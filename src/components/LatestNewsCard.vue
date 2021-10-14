@@ -3,7 +3,7 @@
         <div class="overlay">
             <img :src="dataNews.url" alt="Img News">
             <div class="divHover">
-                <div class="iconsContainer">
+                <div class="iconsContainer d-flex">
                     <div class="icons"><i class="fas fa-link"></i></div>
                     <div class="icons"><i class="fas fa-search"></i></div>
                 </div>
@@ -44,7 +44,6 @@ div {
             @include divHover;
 
             .iconsContainer {
-                display: flex;
                 margin-bottom: .9375rem;
 
                 .icons {
@@ -73,7 +72,6 @@ div {
         background-color: #fff;
 
         h3, .description {
-            font-weight: lighter;
             line-height: 2.5rem;
         }
 
@@ -83,7 +81,7 @@ div {
         }
 
         p {
-            color: #545454;
+            color: $commonGray;
         }
     }
 }
