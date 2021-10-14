@@ -4,7 +4,7 @@
         <div class="small-container">
             <TitleAndDescription :data="data"/>
             <OwnersCard :dataOwners="dataOwners.data[indexOwners]"/>
-            <div>
+            <div class="text-center">
                 <div class="circle" :class=" indexOwners == 0 ? 'active' : null" @click="changeOwner()"></div>
                 <div class="circle" :class=" indexOwners == 1 ? 'active' : null" @click="changeOwner()"></div>
             </div>
@@ -51,8 +51,7 @@ export default {
 .container-fluid {
     padding: 0;
     background-image: url('../assets/img/home-parallax.jpg');
-    background-size: cover;
-    background-position: center;
+    @include imgBg;
 
     .curvedContainer, .curvedContainerRotate {
         background-color: #f5f5f5;
@@ -61,14 +60,6 @@ export default {
     .small-container {
         margin-top: 6.25rem;
         color: #fff;
-
-        h3 {
-            text-align: center;
-        }
-
-        div {
-            text-align: center;
-        }
 
         .circle {
             display: inline-block;
