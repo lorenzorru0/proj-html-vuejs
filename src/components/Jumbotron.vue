@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid">
         <div class="row">
-            <div class="col d-flex justify-content-center align-items-center">
+            <div class="col d-flex justify-content-center align-items-center text-center">
                 <div>
                     <h2>BUILDING INSPIRING SPACES</h2>
                     <p>We Build Inspiring Residential & Commercial Spaces</p>
@@ -25,15 +25,13 @@ export default {
 .container-fluid {
     height: 62.5rem;
     background-image: url('../assets/img/jumbotron.png');
-    background-size: cover;
-    background-position: center;
+    @include imgBg;
 
     .row {
         height: 100%; 
 
         .col {
             height: 100%;
-            text-align: center;
 
             h2 {
                 color: #fff;
@@ -42,9 +40,7 @@ export default {
 
             p {
                 color: $commonYellow;
-                font-weight: lighter;
                 padding: .9375rem 0;
-                font-size: 1.2rem;
             }
 
             button {
@@ -52,7 +48,6 @@ export default {
                 @include bigButton;
                 margin: 0 .3125rem;
                 letter-spacing: .125rem;
-                font-size: 1.2rem;
             }
 
             .blackButton {

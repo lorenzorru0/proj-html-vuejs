@@ -27,6 +27,12 @@ $commonYellow: #f9d03f;
     background-color: $commonYellow;
 }
 
+/* Mixin Background image */
+@mixin imgBg {
+    background-size: cover;
+    background-position: center;
+}
+
 /* Mixin icon Modern Card */
 @mixin iconModernCard {
     width: 3.75rem;
