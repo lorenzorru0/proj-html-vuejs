@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid">
         <div class="row">
-            <div class="col">
+            <div class="col text-center">
                 <p>Do You Have A Project We Can Help With?</p>
                 <button>GET A FREE QUOTE</button>
             </div>
@@ -23,12 +23,10 @@ export default {
 
     .col {
         position: relative;
-        text-align: center;
         padding: 3.125rem 0;
 
         p {
             font-size: 2.2rem;
-            font-weight: lighter;
             margin-bottom: 0;
         }
 
