@@ -32,7 +32,7 @@ export default {
 .flip-card {
     background-color: transparent;
     width: 100%;
-    height: 21rem;
+    height: 22rem;
     border-radius: .9375rem;
     perspective: 62.5rem;
 
