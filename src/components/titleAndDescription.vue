@@ -8,7 +8,7 @@
 
 <script>
 export default {
-    name: 'titleAndDescription',
+    name: 'TitleAndDescription',
     props: ['data']
 }
 </script>
