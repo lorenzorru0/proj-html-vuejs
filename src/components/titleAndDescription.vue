@@ -36,6 +36,7 @@ div {
     p {
         line-height: 2rem;
         color: #747474;
+        
     }
 }
 
